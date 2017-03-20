@@ -9,9 +9,6 @@ procedure Main is
   Are_Inside_Tag : Boolean := False;
 
 begin
-
-  Ada.Text_IO.Put_Line("Fuck you");
-
   while not End_Of_File loop
 
     Get_Immediate(C);
